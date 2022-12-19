@@ -14,11 +14,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    //We can work with the button by using the variable v.
     public void disable(View v){
-        v.setEnabled(false);
-        Button button = (Button) v;
+        Button button = findViewById(R.id.toDoListButton);
+        button.setEnabled(false);
         button.setText("Disabled");
 
     }
+
 
 }
