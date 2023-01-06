@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     public void launchPage(View v){
         Intent i = new Intent(this, NewPageActivity.class);
         startActivity(i);
-
     }
 
 }
