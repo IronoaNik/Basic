@@ -4,4 +4,7 @@
     <string name="app_input">Input Here</string>
     <string name="text_copy">Text Copy</string>
     <string name="app_output">Output Here</string>
+    <string name="down_arrow">Down Arrow</string>
+    <string name="black_arrow">Black</string>
+    <string name="fade_arrow">Fade</string>
 </resources>
